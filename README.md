@@ -39,3 +39,11 @@ app.listen(3000);
 #### Example: `print_s{2+2}` -> `4`
 #### Example: `print_s{["2", "3"]}` -> `2,3`
 #### Example: `print_s{"<h1>Hi</h1>"}` -> `<h1>Hi</h1>`
+
+## `run{CODE}`
+### Runs code.
+#### Example: `run{console.log("Hi!")}`, Console: Hi!
+
+## `file{FILE}`
+### Puts file without rendering it.
+#### Example: `file{./index.html}`
