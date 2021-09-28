@@ -60,7 +60,7 @@ module.exports = {
          * @param {string} file
          * @param {Object?} variables
          */
-        req.sendNode = (file, variables = {}) => {
+        res.sendNode = (file, variables = {}) => {
             const json = module.exports.compile(require("fs").readFileSync(options.directory + file + ".html").toString(), variables);
             if (json.error) {
                 if (options.showErrorToClient) {

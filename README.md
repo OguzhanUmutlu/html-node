@@ -10,7 +10,7 @@ const app = express();
 app.use(htmlNodeCompiler.callback);
 
 app.get("/", (req, res) => {
-    req.sendNode("index", { myVariable: "Hi!" }); // will be rendering index.html
+    res.sendNode("index", { myVariable: "Hi!" }); // will be rendering index.html
 });
 
 app.listen(3000);
