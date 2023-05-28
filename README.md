@@ -1,6 +1,8 @@
 # html-node-compiler
 This module lets you to run node codes in your html!
 
+[![](https://img.shields.io/badge/Discord-black?style=for-the-badge&logo=discord)](https://discord.gg/emAhrw3mvM)
+
 # Example Server.JS
 
 ```js
